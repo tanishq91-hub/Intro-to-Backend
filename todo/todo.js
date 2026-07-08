@@ -63,3 +63,36 @@ else if (command === 'remove') {
 else {
     console.log('Invalid command. Please use "add", "list", or "remove".')
 }
+
+
+
+/** ------------------ EXAMPLES ------------------
+
+Run from the project root.
+
+Add a new task:
+node todo/todo.js add "Learn Node.js"
+
+Add another task:
+node todo/todo.js add "Build a Todo App"
+
+List all tasks:
+node todo/todo.js list
+
+Output:
+1 - Learn Node.js
+2 - Build a Todo App
+
+Remove the first task:
+node todo/todo.js remove 1
+
+Output:
+Task removed: Learn Node.js
+
+List tasks again:
+node todo/todo.js list
+
+Output:
+1 - Build a Todo App
+
+------------------------------------------------ */
